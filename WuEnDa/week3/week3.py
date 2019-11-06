@@ -10,9 +10,9 @@ np.random.seed(1) # set a seed so that the results are consistent
 
 
 def layer_sizes(X, Y):
-    n_x = X.shape[0]  # size of input layer
+    n_x = X.shape[0]  # 输入层维度(x1,x2,x3,...,xn)
     n_h = 4
-    n_y = Y.shape[0]  # size of output layer
+    n_y = Y.shape[0]  # 输出层维度(y_hat)
     return (n_x, n_h, n_y)
 
 
@@ -45,14 +45,17 @@ def forward_propagation(X, parameters):
     cache = {"Z1": Z1,
              "A1": A1,
              "Z2": Z2,
-             "A2": A2}
+             "A2": A2}#也可以把W[l]和b[l]存到cache里面
     return A2, cache
 
 def compute_cost(A2, Y, parameters):
-    m = Y.shape[1]  # number of example
+    m = Y.shape[1]  # 训练数据个数m
+    #J(w,b)=sum(L(a[i],y[i]))/m
+    #L(a[i],y[i])=-(ylog(a)+(1-y)log(1-a))
     logprobs = np.multiply(np.log(A2), Y) + np.multiply(np.log(1 - A2), 1 - Y)
     cost = -np.sum(logprobs) / m
     cost = np.squeeze(cost)  # makes sure cost is the dimension we expect.
+    #squeeze 函数：从数组的形状中删除单维度条目，即把shape中为1的维度都去掉
     assert (isinstance(cost, float))
     return cost
 
@@ -101,32 +104,28 @@ def update_parameters(parameters, grads, learning_rate=1.2):
 
 def nn_model(X, Y, n_h, num_iterations=10000, print_cost=False):
     np.random.seed(3)
-    n_x = layer_sizes(X, Y)[0]
-    n_y = layer_sizes(X, Y)[2]
-    ### START CODE HERE ### (≈ 5 lines of code)
-    parameters = initialize_parameters(n_x, n_h, n_y)
+    #X(2,400) Y(1,400)
+    n_x = layer_sizes(X, Y)[0]#输入层参数个数
+    n_y = layer_sizes(X, Y)[2]#输出层参数个数
+    parameters = initialize_parameters(n_x, n_h, n_y)#初始化参数(W[l](n[l],n[l-1]),b[l])
     W1 = parameters['W1']
     b1 = parameters['b1']
     W2 = parameters['W2']
     b2 = parameters['b2']
-    ### END CODE HERE ###
     for i in range(0, num_iterations):
-        ### START CODE HERE ### (≈ 4 lines of code)
-        A2, cache = forward_propagation(X, parameters)
+        A2, cache = forward_propagation(X, parameters)#cache:Z[l],A[l]
         cost = compute_cost(A2, Y, parameters)
         grads = backward_propagation(parameters, cache, X, Y)
         parameters = update_parameters(parameters, grads)
-        if print_cost and i % 1000 == 0:
-            print("Cost after iteration %i: %f" % (i, cost))
+        if print_cost and (i) % 1000 == 0:
+            print("Cost after iteration "+str(i)+": "+str(cost))
     return parameters
 
 
 # plot_decision_boundary(lambda x: predict(parameters, x.T), X, Y)
 def predict(parameters, X):
-    ### START CODE HERE ### (≈ 2 lines of code)
     A2, cache = forward_propagation(X, parameters)
     predictions = np.round(A2)
-    ### END CODE HERE ###
     return predictions
 
 def run_diffirent_layars():
@@ -167,18 +166,19 @@ def run_logistic_model():
         (np.dot(Y, LR_predictions) + np.dot(1 - Y, 1 - LR_predictions)) / float(Y.size) * 100) +
           '% ' + "(percentage of correctly labelled datapoints)")
     plt.show()
+# 1.加载数据
 X, Y = load_planar_dataset()
-plt.scatter(X[0, :], X[1, :], c=Y.reshape(X[0, :].shape), s=40, cmap=plt.cm.Spectral)
+plt.scatter(X[0, :], X[1, :], c=Y.reshape(X[0, :].shape), s=40, cmap=plt.cm.Spectral)#显示图像
 plt.show()
-shape_X = X.shape
-shape_Y = Y.shape
-m = shape_X[1]  # training set size
+shape_X = X.shape            #(2,400)
+shape_Y = Y.shape            #(1,400)
+m = shape_X[1]               # 训练数据大小m
 # parameters, cache, X_assess, Y_assess = backward_propagation_test_case()
 # grads = backward_propagation(parameters, cache, X_assess, Y_assess)
-
+# 2.使用训练数据训练模型参数（W,b）
 parameters = nn_model(X, Y, n_h = 4, num_iterations = 10000, print_cost=True)
+# lambda是自定义函数
 plot_decision_boundary(lambda x: predict(parameters, x.T), X, Y)
-print(lambda x: predict(parameters, x.T))
 plt.title("Decision Boundary for hidden layer size " + str(4))
 plt.show()
 

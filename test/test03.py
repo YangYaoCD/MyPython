@@ -12,3 +12,5 @@ for i in (1,2,3):
 P=10
 P=-P
 print(P)
+for i in range(0,10):
+    print(i)

@@ -5,16 +5,31 @@ import sklearn.datasets
 import sklearn.linear_model
 
 def plot_decision_boundary(model, X, Y):
-    # Set min and max values and give it some padding
+    # 设坐标轴宽度和高度
+    #x[n,:]表示在n个数组（维）中取全部数据，直观来说，x[n,:]就是取第n集合的所有数据,
     x_min, x_max = X[0, :].min() - 1, X[0, :].max() + 1
     y_min, y_max = X[1, :].min() - 1, X[1, :].max() + 1
     h = 0.01
-    # Generate a grid of points with distance h between them
+    # 生成网格点坐标矩阵(np.meshgrid)xx(1008,1030)yy(1008,1030)
     xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
     # Predict the function value for the whole grid
-    Z = model(np.c_[xx.ravel(), yy.ravel()])
+    #
+    ''' np.r_是按列连接两个矩阵，就是把两矩阵上下相加，要求列数相等;
+        np.c_是按行连接两个矩阵，就是把两矩阵左右相加，要求行数相等。
+        numpy中的ravel()、flatten()、squeeze()都有将多维数组转换为一维数组的功能，区别：
+        ravel()：如果没有必要，不会产生源数据的副本
+        flatten()：返回源数据的副本
+        squeeze()：只能对维数为1的维度降维
+    '''
+    ravel_xx = xx.ravel()#revel.xx(1038240,)
+    ravel_ = np.c_[ravel_xx, yy.ravel()]#revel_(1038240,2)
+    Z = model(ravel_)#Z(1,1038240)
     Z = Z.reshape(xx.shape)
-    # Plot the contour and training examples
+    '''    
+    plt.contourf 与 plt.contour 区别：
+                f：filled，也即对等高线间的填充区域进行填充（使用不同的颜色）；
+                contourf：将不会再绘制等高线（显然不同的颜色分界就表示等高线本身），
+    '''
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
     plt.ylabel('x2')
     plt.xlabel('x1')
