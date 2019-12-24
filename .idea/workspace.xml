@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c6a8f9c-b46c-422d-8ec5-0bc1106e6496" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/COURSE_2/week_01/Regularization/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tensorflow/2_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tensorflow/dnn-selu-dropout-bn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tensorflow/tf_keras_classification__model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/datasets/test_catvnoncat.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/datasets/train_catvnoncat.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/dnn_app_utils_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/images/2layerNN_kiank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/images/LlayerNN_kiank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/images/ccc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/images/ddd.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/images/imvector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/images/imvectorkiank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/images/my_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WuEnDa/week4_2/week4_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tensorflow/Parameter_search-08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model-04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_multi-input-06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_multi-ouput-07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_subclass-05.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WuEnDa/week4/week4.py" beforeDir="false" afterPath="$PROJECT_DIR$/WuEnDa/week4/week4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouHuaiLai/homework_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouHuaiLai/homework_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouHuaiLai/homework_2.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/dnn-selu-dropout-bn.py">
+        <entry file="file://$PROJECT_DIR$/Tensorflow/Parameter_search-08.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="146">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -104,6 +89,11 @@
         <option value="$PROJECT_DIR$/Tensorflow/tf_keras_classification__model.py" />
         <option value="$PROJECT_DIR$/ZhouHuaiLai/homework_1.py" />
         <option value="$PROJECT_DIR$/Tensorflow/deep_model.py" />
+        <option value="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_multi-input-06.py" />
+        <option value="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_multi-ouput-07.py" />
+        <option value="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model-04.py" />
+        <option value="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_subclass-05.py" />
+        <option value="$PROJECT_DIR$/Tensorflow/Parameter_search-08.py" />
       </list>
     </option>
   </component>
@@ -112,11 +102,11 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="y" value="498" />
-    <option name="width" value="1598" />
-    <option name="height" value="853" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="183" />
+    <option name="y" value="192" />
+    <option name="width" value="1423" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,7 +142,7 @@
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/COURSE_2/week_01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tensorflow/dnn-callbacks" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -164,15 +154,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xiazai\py\COURSE_2\week_01\Regularization" />
-      <recent name="D:\xiazai\py\WuEnDa\week3" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xiazai\py\Tensorflow\dnn-callbacks" />
       <recent name="D:\xiazai\py\COURSE_2\week_01" />
       <recent name="D:\xiazai\py\WuEnDa\week4_2" />
       <recent name="D:\xiazai\py\WuEnDa\week4" />
       <recent name="D:\xiazai\py\ZhouHuaiLai" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xiazai\py\Tensorflow" />
+      <recent name="D:\xiazai\py\COURSE_2\week_01\Regularization" />
       <recent name="D:\xiazai\py\WuEnDa\week3" />
     </key>
   </component>
@@ -188,21 +179,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deep_model">
-    <configuration name="001" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Wide&amp;Deep_model-04">
+    <configuration name="Wide&amp;Deep_model-04" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/001.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model-04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,20 +199,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Wide&amp;Deep_model_multi-input-06" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\xiazai\py\Tensorflow\tf-test-01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_multi-input-06.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Wide&amp;Deep_model_multi-ouput-07" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_multi-ouput-07.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Wide&amp;Deep_model_subclass-05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_subclass-05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,6 +282,9 @@
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -274,64 +300,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZhouHuaiLai" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZhouHuaiLai/homework_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tf_keras_classification__model" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\xiazai\py\Tensorflow\tf_keras_classification__model.-02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.001" />
-      <item itemvalue="Python.2_1" />
-      <item itemvalue="Python.tf_keras_classification__model" />
-      <item itemvalue="Python.homework_1" />
       <item itemvalue="Python.deep_model" />
+      <item itemvalue="Python.Wide&amp;Deep_model-04" />
+      <item itemvalue="Python.Wide&amp;Deep_model_subclass-05" />
+      <item itemvalue="Python.Wide&amp;Deep_model_multi-input-06" />
+      <item itemvalue="Python.Wide&amp;Deep_model_multi-ouput-07" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Wide&amp;Deep_model-04" />
+        <item itemvalue="Python.Wide&amp;Deep_model_subclass-05" />
+        <item itemvalue="Python.Wide&amp;Deep_model_multi-ouput-07" />
+        <item itemvalue="Python.Wide&amp;Deep_model_multi-input-06" />
         <item itemvalue="Python.deep_model" />
-        <item itemvalue="Python.homework_1" />
-        <item itemvalue="Python.tf_keras_classification__model" />
-        <item itemvalue="Python.2_1" />
-        <item itemvalue="Python.001" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +358,8 @@
       <workItem from="1576754787423" duration="4467000" />
       <workItem from="1576817766512" duration="41044000" />
       <workItem from="1577064712269" duration="17729000" />
-      <workItem from="1577153383864" duration="4537000" />
+      <workItem from="1577153383864" duration="6368000" />
+      <workItem from="1577172618075" duration="15255000" />
     </task>
     <task id="LOCAL-00001" summary="2019/10/23 第一次上传">
       <created>1571824361920</created>
@@ -392,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573002147469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2019/12/24 Google工程师亲授 Tensorflow2.0－入门到进阶(p1-p21)">
+      <created>1577158898702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577158898702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172603000" />
+    <option name="totallyTimeSpent" value="189689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,10 +398,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="147" y="154" width="1138" height="702" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30648148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,18 +414,18 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41353887" side_tool="true" weight="0.40509915" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41353887" side_tool="true" weight="0.40363637" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.28611898" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.5864611" visible="true" weight="0.42776203" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.5864611" visible="true" weight="0.3982456" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4992928" visible="true" weight="0.3378016" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4992928" visible="true" weight="0.21111111" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" sideWeight="0.5007072" side_tool="true" visible="true" weight="0.18431635" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22184986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -448,13 +438,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41353887" side_tool="true" weight="0.40509915" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41353887" side_tool="true" weight="0.40363637" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.28611898" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.5864611" visible="true" weight="0.4305949" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.5864611" visible="true" weight="0.45892352" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4992928" visible="true" weight="0.2841823" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4992928" visible="true" weight="0.23592493" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" sideWeight="0.5007072" side_tool="true" visible="true" weight="0.18431635" />
     </layout-to-restore>
@@ -465,7 +455,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019/10/23 第一次上传" />
     <MESSAGE value="2019/11/6 吴恩达深度学习week4-1的完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/11/6 吴恩达深度学习week4-1的完成" />
+    <MESSAGE value="2019/12/24 Google工程师亲授 Tensorflow2.0－入门到进阶(p1-p21)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/12/24 Google工程师亲授 Tensorflow2.0－入门到进阶(p1-p21)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,22 +514,6 @@
     <SUITE FILE_PATH="coverage/py$week4.coverage" NAME="week4 Coverage Results" MODIFIED="1572945193651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WuEnDa/week4" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test19.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -610,13 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -830,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow/tf_keras_classification__model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="204" column="29" selection-start-line="204" selection-start-column="29" selection-end-line="204" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Lib/site-packages/numpy/core/tests/test_numeric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -852,13 +813,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZhouHuaiLai/homework_2.py" />
-    <entry file="file://$PROJECT_DIR$/Tensorflow/2_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZhouHuaiLai/homework_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
@@ -869,10 +823,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow/dnn-selu-dropout-bn.py">
+    <entry file="file://$PROJECT_DIR$/Tensorflow/tf-test-01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/tf_keras_classification__model.-02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="140" column="47" selection-start-line="140" selection-start-column="47" selection-end-line="140" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/dnn-selu-dropout-bn-03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_multi-ouput-07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_multi-input-06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model-04.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/Wide&amp;Deep_model_subclass-05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/Parameter_search-08.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
