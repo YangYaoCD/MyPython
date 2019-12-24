@@ -76,7 +76,7 @@ def compute_cost(AL, Y):
 def linear_backward(dZ, cache):
     A_prev, W, b = cache
     m = A_prev.shape[1]
-    dW =np.dot(dZ, A_prev.T) / m           #!问什么这里需要转置，和他写的不一样
+    dW =np.dot(dZ, A_prev.T) / m
     db = np.sum(dZ,axis=1, keepdims=True)/m
     dA_prev = np.dot(W.T,dZ)
 
@@ -126,7 +126,7 @@ def L_model_backward(AL, Y, caches):
 
     return grads
 
-
+#更新参数W，b
 def update_parameters(parameters, grads, learning_rate):
     L = len(parameters) // 2  # number of layers in the neural network
 
