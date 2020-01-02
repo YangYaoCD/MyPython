@@ -10,3 +10,6 @@ for iteration in range(50):
     x=x+y
     y=y/2
 print(x.numpy())
+s=tf.constant([0.,1.,2.,3.,4.,5.,6.,7.,8.,9.,10.])
+softmax = tf.nn.softplus(s)
+print (softmax)
