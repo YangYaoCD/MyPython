@@ -3,6 +3,8 @@
 """
 Author : YangYao
 Date : 2020/5/30 20:36
+
+xls文件读写
 """
 
 # python里面操作excel
@@ -37,3 +39,5 @@ for i in range(table.nrows):
         radar_row.add(table.row_values(i)[0], table.row_values(i)[1:])
 
 radar_row.render_to_file('demo.html')
+
+import xlwt
