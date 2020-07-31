@@ -5,7 +5,6 @@ Author : YangYao
 Date : 2020/6/10 10:53
 """
 
-
 '''
 1. 和数字相关
 
@@ -164,18 +163,13 @@ print(l1)  # ['one', 'two', 'six', 'four', 'five', 'three']
 '''         enumerate() 获取集合的枚举对象'''
 lst = ['one', 'two', 'three', 'four', 'five']
 for index, el in enumerate(lst, 1):  # 把索引和元素一起获取,索引默认从0开始. 可以更改
-    print(index)
+    print(index, end='\t')
     print(el)
-# 1
-# one
-# 2
-# two
-# 3
-# three
-# 4
-# four
-# 5
-# five
+# 0	one
+# 1	two
+# 2	three
+# 3	four
+# 4	five
 
 '''
             all() 可迭代对象中全部是True, 结果才是True
@@ -188,7 +182,7 @@ print(any([0, 0, 0, False, 1, 'good']))  # True
 lst1 = [1, 2, 3, 4, 5, 6]
 lst2 = ['醉乡民谣', '驴得水', '放牛班的春天', '美丽人生', '辩护人', '被嫌弃的松子的一生']
 lst3 = ['美国', '中国', '法国', '意大利', '韩国', '日本']
-print(zip(lst1, lst1, lst3))  #<zip object at 0x00000256CA6C7A88>
+print(zip(lst1, lst1, lst3))  # <zip object at 0x00000256CA6C7A88>
 for el in zip(lst1, lst2, lst3):
     print(el)
 # (1, '醉乡民谣', '美国')
@@ -203,32 +197,46 @@ for el in zip(lst1, lst2, lst3):
             语法：fiter(function. Iterable)
             function: 用来筛选的函数. 在ﬁlter中会自动的把iterable中的元素传递给function. 然后根据function返回的True或者False来判断是否保留留此项数据 , Iterable: 可迭代对象
 '''
-def func(i):    # 判断奇数
+
+
+def func(i):  # 判断奇数
     return i % 2 == 1
-    lst = [1,2,3,4,5,6,7,8,9]
-l1 = filter(func, lst)  #l1是迭代器
-print(l1)  #<filter object at 0x000001CE3CA98AC8>
-print(list(l1))  #[1, 3, 5, 7, 9]
+
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+l1 = filter(func, lst)  # l1是迭代器
+print(l1)  # <filter object at 0x000001CE3CA98AC8>
+print(list(l1))  # [1, 3, 5, 7, 9]
 
 '''
             map() 会根据提供的函数对指定序列列做映射(lamda)
             语法 : map(function, iterable) 
             可以对可迭代对象中的每一个元素进行映射. 分别去执行 function
 '''
-def f(i):    return i
-lst = [1,2,3,4,5,6,7,]
-it = map(f, lst) # 把可迭代对象中的每一个元素传递给前面的函数进行处理. 处理的结果会返回成迭代器print(list(it))  #[1, 2, 3, 4, 5, 6, 7]
+
+
+def f(i):
+    return i
+
+
+lst = [1, 2, 3, 4, 5, 6, 7, ]
+it = map(f, lst)  # 把可迭代对象中的每一个元素传递给前面的函数进行处理. 处理的结果会返回成迭代器print(list(it))  #[1, 2, 3, 4, 5, 6, 7]
+
 '''
 3. 和作用域相关
 
     locals() 返回当前作用域中的名字
     globals() 返回全局作用域中的名字
 '''
+
+
 def func():
     a = 10
     print(locals())  # 当前作用域中的内容
     print(globals())  # 全局作用域中的内容
     print("今天内容很多")
+
+
 func()
 # {'a': 10}
 # {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__':
@@ -245,18 +253,15 @@ func()
     next() 迭代器向下执行一次, 内部实际使⽤用了__ next__()⽅方法返回迭代器的下一个项目
     iter() 获取迭代器, 内部实际使用的是__ iter__()⽅方法来获取迭代器
 '''
-for i in range(15,-1,-5):
-    print(i)
-# 15
-# 10
-# 5
-# 0
-lst = [1,2,3,4,5]
-it = iter(lst)  #  __iter__()获得迭代器
-print(it.__next__())  #1
-print(next(it)) #2  __next__()
-print(next(it))  #3
-print(next(it))  #4
+for i in range(15, -1, -5):
+    print(i, end="\t")
+print()
+lst = [1, 2, 3, 4, 5]
+it = iter(lst)  # __iter__()获得迭代器
+print(it.__next__())  # 1
+print(next(it))  # 2  __next__()
+print(next(it))  # 3
+print(next(it))  # 4
 
 '''
 5. 字符串类型代码的执行
@@ -265,22 +270,19 @@ print(next(it))  #4
     exec() 执行字符串类型的代码
     compile() 将字符串类型的代码编码. 代码对象能够通过exec语句来执行或者eval()进行求值
 '''
-s1 = input("请输入a+b:")  #输入:8+9print(eval(s1))  # 17 可以动态的执行代码. 代码必须有返回值s2 = "for i in range(5): print(i)"a = exec(s2) # exec 执行代码不返回任何内容# 0# 1# 2# 3# 4print(a)  #None# 动态执行代码exec("""def func():    print(" 我是周杰伦")""" )func()  #我是周杰伦
+s1 = input("请输入a+b:")  # 输入:8+9print(eval(s1))  # 17 可以动态的执行代码. 代码必须有返回值s2 = "for i in range(5): print(i)"a = exec(s2) # exec 执行代码不返回任何内容# 0# 1# 2# 3# 4print(a)  #None# 动态执行代码exec("""def func():    print(" 我是周杰伦")""" )func()  #我是周杰伦
 code1 = "for i in range(3): print(i)"
-com = compile(code1, "", mode="exec")   # compile并不会执行你的代码.只是编译
-exec(com)   # 执行编译的结果
-# 0
-# 1
-# 2
+com = compile(code1, "", mode="exec")  # compile并不会执行你的代码.只是编译
+exec(com)  # 执行编译的结果
 
 code2 = "5+6+7"
 com2 = compile(code2, "", mode="eval")
 print(eval(com2))  # 18
 
-code3 = "name = input('请输入你的名字:')"  #输入:hello
+code3 = "name = input('请输入你的名字:')"  # 输入:hello
 com3 = compile(code3, "", mode="single")
 exec(com3)
-print(name)  #hello
+print(name)  # hello
 
 '''
 6.输入输出
@@ -293,14 +295,14 @@ input() : 获取用户输出的内容
 hash() : 获取到对象的哈希值(int, str, bool, tuple). hash算法:(1) 目的是唯一性 (2) dict 查找效率非常高, hash表.用空间换的时间 比较耗费内存
 '''
 s = 'alex'
-print(hash(s))  #-168324845050430382
+print(hash(s))  # -168324845050430382
 
 lst = [1, 2, 3, 4, 5]
-print(hash(lst))  #报错,列表是不可哈希的
-'''　　id() :  获取到对象的内存地址'''
+print(hash(lst))  # 报错,列表是不可哈希的
 
+'''　　id() :  获取到对象的内存地址'''
 s = 'alex'
-print(id(s))  #2278345368944
+print(id(s))  # 2278345368944
 
 '''
 8. 文件操作相关
